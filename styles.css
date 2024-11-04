@@ -22,6 +22,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* これを追加して、必要に応じて行をラップさせます */
     background-color: #444; /* 背景色を追加 */
 }
 
