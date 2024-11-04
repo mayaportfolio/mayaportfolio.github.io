@@ -31,6 +31,9 @@ nav a {
 section {
     padding: 2rem;
     text-align: center;
+    .work-item p {
+        text-align: left;
+    }
 }
 
 footer {
@@ -38,7 +41,4 @@ footer {
     color: #fff;
     padding: 1rem;
     text-align: center;
-}
-.work-item p {
-    text-align: left;
 }
