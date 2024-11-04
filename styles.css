@@ -3,20 +3,25 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f4; /* 背景色を追加 */
+    color: #333; /* 文字色を変更 */
 }
 
 header {
-    background-color: #333;
+    background-color: #444; /* 背景色をやや明るく */
     color: #fff;
     padding: 1rem;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
+    background-color: #333; /* 背景色を追加 */
 }
 
 nav li {
@@ -26,19 +31,37 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s; /* ホバー時のアニメーションを追加 */
+}
+
+nav a:hover {
+    background-color: #555; /* ホバー時の背景色 */
 }
 
 section {
     padding: 2rem;
-    text-align: center;
-    .work-item p {
-        text-align: left;
-    }
+    text-align: left; /* 左揃えに変更 */
+    background-color: #fff; /* 背景色を追加 */
+    margin-bottom: 2rem; /* セクションの間に余白を追加 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
 }
 
 footer {
-    background-color: #333;
+    background-color: #444; /* 背景色をやや明るく */
     color: #fff;
     padding: 1rem;
     text-align: center;
+    border-top: 2px solid #333; /* 境界線を追加 */
+}
+
+.work-item p {
+    text-align: left; /* 作品の説明文を左揃えに */
+}
+
+.work-image {
+    max-width: 100%; /* 画像のサイズを調整 */
+    height: auto;
+    display: block;
+    margin: 1rem auto; /* 中央揃えに */
 }
