@@ -21,7 +21,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: #333; /* 背景色を追加 */
+    background-color: #444; /* 背景色を追加 */
 }
 
 nav li {
